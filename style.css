@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: lightblue;
+}
+
+input {
+  height: 1.5rem;
+  border: 2px solid lightslategray;
+  border-radius: 5px;
+}
+
+button {
+  height: 2rem;
+  border-radius: 5px;
+  border: 2px solid lightslategray;
+  cursor: pointer;
+}
